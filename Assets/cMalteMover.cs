@@ -35,7 +35,7 @@ public class cMalteMover : MonoBehaviour
         //transform.position = target.transform.position;
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            rb.AddForce(Vector3.up * strength);
+            rb.AddForce(Vector3.up * strength/10);
         }
 
 
